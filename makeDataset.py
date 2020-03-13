@@ -9,7 +9,7 @@ DATASET_PATH = './data/'
 CASCADE_CLASSIFIER = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
 SKIP_FRAMES = 10
 MAX_SAVED_IMAGES_COUNT = 20
-CROP_OFFSET = 20
+CROP_OFFSET = 0
 
 def getBiggestFace(faceList):
 	faceList = sorted(faceList,key = lambda f: f[2]*f[3])
