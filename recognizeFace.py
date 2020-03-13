@@ -7,7 +7,7 @@ import time
 
 DATASET_PATH = './data/'
 CASCADE_CLASSIFIER = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
-CROP_OFFSET = 20
+CROP_OFFSET = 0
 
 
 
