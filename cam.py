@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import time
 
 
-CROP_OFFSET = 20
+CROP_OFFSET = 0
 
 
 def checkAction():
